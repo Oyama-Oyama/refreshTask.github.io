@@ -21,7 +21,7 @@ jobs:
       run: go run main.go
     
     - name: 'add data' 
-      run: go add .
+      run: git add --all
       
     - name: 'push data'
       uses: actions-go/push@v1
