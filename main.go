@@ -157,5 +157,4 @@ func main() {
 	go LoadClashNodeV2ray()
 
 	wait.Wait()
-
 }
