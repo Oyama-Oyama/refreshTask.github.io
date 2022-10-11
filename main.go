@@ -34,12 +34,13 @@ func renameFile(source string) {
 }
 
 func saveToFile(reader io.ReadCloser, fileName string, result func(string, bool)) {
-	tmp := fileName + ".tmp"
-	_, err := os.Stat(tmp)
-	if os.IsExist(err) {
-		os.Remove(tmp)
-	}
-	file, err := os.Create(tmp)
+// 	tmp := fileName + ".tmp"
+// 	_, err := os.Stat(tmp)
+// 	if os.IsExist(err) {
+// 		os.Remove(tmp)
+// 	}
+// 	file, err := os.Create(tmp)
+	file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_TRUNC, 0666)
 	if err != nil {
 		fmt.Println("create tmp file err:" + tmp)
 		return
