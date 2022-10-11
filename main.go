@@ -68,7 +68,7 @@ func saveToFile(reader io.ReadCloser, fileName string, result func(string, bool)
 			break
 		}
 	}
-	result(tmp, resultStatus)
+	result(fileName, resultStatus)
 }
 
 func LoadNodeFreeV2ray() {
@@ -82,9 +82,9 @@ func LoadNodeFreeV2ray() {
 	defer resp.Body.Close()
 	result := func(tmp string, status bool) {
 		fmt.Printf("load node free v2ray result:%v, file:%v\n", status, tmp)
-		if status {
-			renameFile(tmp)
-		}
+// 		if status {
+// 			renameFile(tmp)
+// 		}
 		wait.Done()
 	}
 	saveToFile(resp.Body, "nodeFreeV2ray.txt", result)
@@ -101,9 +101,9 @@ func LoadNodeFreeClash() {
 	defer resp.Body.Close()
 	result := func(tmp string, status bool) {
 		fmt.Printf("load node free v2ray result:%v, file:%v\n", status, tmp)
-		if status {
-			renameFile(tmp)
-		}
+// 		if status {
+// 			renameFile(tmp)
+// 		}
 		wait.Done()
 	}
 	saveToFile(resp.Body, "nodeFreeClash.yaml", result)
@@ -120,9 +120,9 @@ func LoadClashNodeV2ray() {
 	defer resp.Body.Close()
 	result := func(tmp string, status bool) {
 		fmt.Printf("load node free v2ray result:%v, file:%v\n", status, tmp)
-		if status {
-			renameFile(tmp)
-		}
+// 		if status {
+// 			renameFile(tmp)
+// 		}
 		wait.Done()
 	}
 	saveToFile(resp.Body, "clashNodeV2ray.txt", result)
@@ -139,9 +139,9 @@ func LoadClashNodeClash() {
 	defer resp.Body.Close()
 	result := func(tmp string, status bool) {
 		fmt.Printf("load node free v2ray result:%v, file:%v\n", status, tmp)
-		if status {
-			renameFile(tmp)
-		}
+// 		if status {
+// 			renameFile(tmp)
+// 		}
 		wait.Done()
 	}
 	saveToFile(resp.Body, "clashNodeClash.yaml", result)
