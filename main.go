@@ -42,7 +42,7 @@ func saveToFile(reader io.ReadCloser, fileName string, result func(string, bool)
 // 	file, err := os.Create(tmp)
 	file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_TRUNC, 0666)
 	if err != nil {
-		fmt.Println("create tmp file err:" + tmp)
+		fmt.Println("create tmp file err:" + fileName)
 		return
 	}
 	defer file.Close()
