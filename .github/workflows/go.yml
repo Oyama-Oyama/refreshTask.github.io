@@ -1,7 +1,6 @@
 name: Go
 
 on:
-  push:
   schedule:
     - cron: '5 * * * *'
 
