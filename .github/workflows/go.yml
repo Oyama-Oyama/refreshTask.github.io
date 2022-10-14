@@ -24,9 +24,9 @@ jobs:
       run: git add .
       
     - name: 'push data'
-      uses: actions-go/push@v1
+      uses: actions-go/push@7ad7ce209f2a038e7bca929b7a4c92026363f856
       with:
-        commit-message: 'new data'
+        commit-message: 'update'
         remote: origin
         force: true
         
