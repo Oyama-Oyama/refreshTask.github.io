@@ -3,7 +3,7 @@ name: Go
 on:
   push:
   schedule:
-    - cron: '59 * * * *'
+    - cron: '29 * * * *'
 
 jobs:
 
