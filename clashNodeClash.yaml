@@ -5,21 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 _HK_香港->🇯🇵_JP_日本, server: 219.76.13.180, port: 443, type: trojan, password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0, sni: stutter.freetrade.link, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 _US_美国, server: hg15.leifengkeji.live, port: 48913, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, sni: hg15.leifengkeji.live, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 183.232.141.154, port: 19216, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false}
-  - {name: default_name, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, sni: idc1.vpn-akcelluler.my.id, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 _FR_法国 2, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇦🇺 _AU_澳大利亚, server: az.zhou2176.xyz, port: 443, type: trojan, password: tsoikaye724, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国 3, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _CN_中国, server: 43.154.34.49, port: 23183, type: vmess, uuid: b402a4af-285a-463e-c3a7-53f91efdec78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇫🇷 _FR_法国 4, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 _FR_法国 5, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 _FR_法国 6, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 _FR_法国 7, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 _FR_法国 8, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 _FR_法国 9, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 _FR_法国 10, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 _HK_香港, server: dsj17.1062cdn.top, port: 443, type: vmess, uuid: caf2e1ff-cf38-11eb-b239-00163cc6d021, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 _FR_法国 11, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 _FR_法国 12, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 13, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 _FR_法国 14, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 _FR_法国 15, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 16, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 _FR_法国 17, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 _FR_法国 18, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 _FR_法国 19, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 _FR_法国 20, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 213.183.53.221, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe}
+  - {name: 🇫🇷 _FR_法国 21, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 _FR_法国 22, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇮🇩 _ID_印度尼西亚, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, sni: idc1.vpn-akcelluler.my.id, skip-cert-verify: false}
+  - {name: 🇨🇦 _CA_加拿大 5, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 _FR_法国 23, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 _FR_法国 24, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 _FR_法国 25, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 _FR_法国 26, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 _HK_香港->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - default_name
+      - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇦🇺 _AU_澳大利亚
+      - 🇫🇷 _FR_法国 3
+      - _CN_中国
+      - 🇫🇷 _FR_法国 4
+      - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国 6
+      - 🇫🇷 _FR_法国 7
+      - 🇫🇷 _FR_法国 8
+      - 🇫🇷 _FR_法国 9
+      - 🇫🇷 _FR_法国 10
+      - 🇭🇰 _HK_香港
+      - 🇨🇦 _CA_加拿大 2
+      - 🇫🇷 _FR_法国 11
+      - 🇫🇷 _FR_法国 12
+      - 🇫🇷 _FR_法国 13
+      - 🇫🇷 _FR_法国 14
+      - 🇫🇷 _FR_法国 15
+      - 🇫🇷 _FR_法国 16
+      - 🇫🇷 _FR_法国 17
+      - 🇨🇦 _CA_加拿大 3
+      - 🇫🇷 _FR_法国 18
+      - 🇫🇷 _FR_法国 19
+      - 🇨🇦 _CA_加拿大 4
+      - 🇫🇷 _FR_法国 20
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇫🇷 _FR_法国 21
+      - 🇫🇷 _FR_法国 22
+      - 🇮🇩 _ID_印度尼西亚
+      - 🇨🇦 _CA_加拿大 5
+      - 🇫🇷 _FR_法国 23
+      - 🇫🇷 _FR_法国 24
+      - 🇫🇷 _FR_法国 25
+      - 🇫🇷 _FR_法国 26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -35,11 +97,42 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 _HK_香港->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - default_name
+      - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇦🇺 _AU_澳大利亚
+      - 🇫🇷 _FR_法国 3
+      - _CN_中国
+      - 🇫🇷 _FR_法国 4
+      - 🇫🇷 _FR_法国 5
+      - 🇫🇷 _FR_法国 6
+      - 🇫🇷 _FR_法国 7
+      - 🇫🇷 _FR_法国 8
+      - 🇫🇷 _FR_法国 9
+      - 🇫🇷 _FR_法国 10
+      - 🇭🇰 _HK_香港
+      - 🇨🇦 _CA_加拿大 2
+      - 🇫🇷 _FR_法国 11
+      - 🇫🇷 _FR_法国 12
+      - 🇫🇷 _FR_法国 13
+      - 🇫🇷 _FR_法国 14
+      - 🇫🇷 _FR_法国 15
+      - 🇫🇷 _FR_法国 16
+      - 🇫🇷 _FR_法国 17
+      - 🇨🇦 _CA_加拿大 3
+      - 🇫🇷 _FR_法国 18
+      - 🇫🇷 _FR_法国 19
+      - 🇨🇦 _CA_加拿大 4
+      - 🇫🇷 _FR_法国 20
+      - 🇷🇺 _RU_俄罗斯联邦
+      - 🇫🇷 _FR_法国 21
+      - 🇫🇷 _FR_法国 22
+      - 🇮🇩 _ID_印度尼西亚
+      - 🇨🇦 _CA_加拿大 5
+      - 🇫🇷 _FR_法国 23
+      - 🇫🇷 _FR_法国 24
+      - 🇫🇷 _FR_法国 25
+      - 🇫🇷 _FR_法国 26
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
