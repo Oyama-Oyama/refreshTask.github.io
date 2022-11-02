@@ -9,7 +9,7 @@
     <meta name="applicable-device" content="pc,mobile" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <link rel="shortcut icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" />
-<link rel='stylesheet' id='stylesheet-css'  href='//nodefree.org/wp-content/uploads/wpcom/style.6.9.1.1667272043.css?ver=6.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css'  href='//nodefree.org/wp-content/uploads/wpcom/style.6.9.1.1667355256.css?ver=6.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css'  href='https://nodefree.org/wp-content/themes/justnews/themer/assets/css/font-awesome.css?ver=6.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css'  href='https://nodefree.org/wp-includes/css/dist/block-library/style.min.css?ver=6.0.3' type='text/css' media='all' />
 <style id='global-styles-inline-css' type='text/css'>
@@ -28,18 +28,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
   gtag('config', 'UA-200793263-3');
 </script>
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?7ce6e8a33d2a0bbd96a18f6198ce13f7";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-
 
       <meta name="onesignal" content="wordpress-plugin"/>
             <script>
