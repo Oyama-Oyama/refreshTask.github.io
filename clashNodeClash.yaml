@@ -17,7 +17,7 @@
 
   gtag('config', 'UA-200793263-6');
 </script>
-    <link rel="icon" href="https://clashnode.com/wp-content/uploads/2022/07/icon.png" type="image/x-icon"/>
+<style>.icon {width: 18px; height: 18px;vertical-align: -3px;fill: currentColor;overflow: hidden;}</style>    <link rel="icon" href="https://clashnode.com/wp-content/uploads/2022/07/icon.png" type="image/x-icon"/>
     <style>
     :root {
         --Maincolor: #409EFF !important;
@@ -127,10 +127,10 @@ oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = '您已订�
         <div class="drawer-menu-header-img">
             <img src="https://clashnode.com/wp-content/themes/CorePress-Pro/static/img/mobile-header.svg">
         </div>
-        <div class="menu-mobile"><ul class="menu-mobile-header-list"><li id="menu-item-8" class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode">免费节点</a></li>
-<li id="menu-item-9" class="menu-item menu-item-9"><a href="https://clashnode.com/f/client">客户端</a></li>
-<li id="menu-item-10" class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge">知识库</a></li>
-<li id="menu-item-481" class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel">TG频道</a></li>
+        <div class="menu-mobile"><ul class="menu-mobile-header-list"><li id="menu-item-8" class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wangluo"></use></svg> 免费节点</a></li>
+<li id="menu-item-9" class="menu-item menu-item-9"><a href="https://clashnode.com/f/client"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-anquan"></use></svg> 客户端</a></li>
+<li id="menu-item-10" class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-xinwen"></use></svg> 知识库</a></li>
+<li id="menu-item-481" class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tishi"></use></svg> TG频道</a></li>
 </ul></div>    </div>
     <div class="drawer-menu-write" onclick="closeMenu()">
     </div>
@@ -160,10 +160,10 @@ oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = '您已订�
 <div class="header-menu">
     <div class="menu-plane">
 
-        <nav class="menu-header-plane"><ul id="menu-nav-1" class="menu-header-list"><li class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode">免费节点</a></li>
-<li class="menu-item menu-item-9"><a href="https://clashnode.com/f/client">客户端</a></li>
-<li class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge">知识库</a></li>
-<li class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel">TG频道</a></li>
+        <nav class="menu-header-plane"><ul id="menu-nav-1" class="menu-header-list"><li class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wangluo"></use></svg> 免费节点</a></li>
+<li class="menu-item menu-item-9"><a href="https://clashnode.com/f/client"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-anquan"></use></svg> 客户端</a></li>
+<li class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-xinwen"></use></svg> 知识库</a></li>
+<li class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tishi"></use></svg> TG频道</a></li>
 </ul></nav>
     </div>
     <div class="user-menu-plane">
@@ -208,7 +208,7 @@ var set = {"is_single":"","is_page":"","is_home":"","ajaxurl":"https:\/\/clashno
 <script type='text/javascript' src='https://clashnode.com/wp-content/themes/CorePress-Pro/static/lib/layer/layer.js?ver=33' id='layer-js'></script>
 <script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js' async='async' id='remote_sdk-js'></script>
 <script>console.log("\n %c CorePress-Pro主题 v1.4.5 %c by applek | www.lovestu.com", "color:#fff;background:#f39d2e;padding:5px 0;", "color:#eee;background:#444;padding:5px 10px;");
-</script><div class="go-top-plane" title="返回顶部">
+</script><script src="//at.alicdn.com/t/c/font_3752351_qirudq5y1vg.js"></script><div class="go-top-plane" title="返回顶部">
     <i class="fa fa-arrow-up" aria-hidden="true"></i>
 </div>
 <div class="sidebarlist-main">
