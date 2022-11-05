@@ -130,6 +130,7 @@ oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = '您已订�
         <div class="menu-mobile"><ul class="menu-mobile-header-list"><li id="menu-item-8" class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode">免费节点</a></li>
 <li id="menu-item-9" class="menu-item menu-item-9"><a href="https://clashnode.com/f/client">客户端</a></li>
 <li id="menu-item-10" class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge">知识库</a></li>
+<li id="menu-item-481" class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel">TG频道</a></li>
 </ul></div>    </div>
     <div class="drawer-menu-write" onclick="closeMenu()">
     </div>
@@ -162,6 +163,7 @@ oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = '您已订�
         <nav class="menu-header-plane"><ul id="menu-nav-1" class="menu-header-list"><li class="menu-item menu-item-8"><a href="https://clashnode.com/f/freenode">免费节点</a></li>
 <li class="menu-item menu-item-9"><a href="https://clashnode.com/f/client">客户端</a></li>
 <li class="menu-item menu-item-10"><a href="https://clashnode.com/f/knowledge">知识库</a></li>
+<li class="menu-item menu-item-481"><a href="https://t.me/clashnodechannel">TG频道</a></li>
 </ul></nav>
     </div>
     <div class="user-menu-plane">
