@@ -9,7 +9,7 @@
     <meta name="applicable-device" content="pc,mobile" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <link rel="shortcut icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" />
-<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.9.1.1667355256.css?ver=6.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.9.1.1667627347.css?ver=6.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css' href='https://nodefree.org/wp-content/themes/justnews/themer/assets/css/font-awesome.css?ver=6.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css' href='https://nodefree.org/wp-includes/css/dist/block-library/style.min.css?ver=6.1' type='text/css' media='all' />
 <link rel='stylesheet' id='classic-theme-styles-css' href='https://nodefree.org/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
