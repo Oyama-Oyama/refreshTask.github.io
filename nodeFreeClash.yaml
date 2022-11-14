@@ -93,7 +93,7 @@ oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = '订阅网
 <body data-rsssl=1 class="error404 lang-cn el-boxed header-fixed">
 <header class="header">
 <div class="container">
-<div class="navbar-header">
+ <div class="navbar-header">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-label="menu">
 <span class="icon-bar icon-bar-1"></span>
 <span class="icon-bar icon-bar-2"></span>
