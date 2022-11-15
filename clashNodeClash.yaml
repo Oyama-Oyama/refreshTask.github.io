@@ -5,23 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 _JP_日本, server: trs15.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: false}
-  - {name: _CN_中国->🇧🇭_BH_巴林, server: unicomus.mipglxi.cn, port: 5628, type: ss, cipher: aes-128-gcm, password: 27fdeaac-dee2-469d-928f-4de839daac45}
-  - {name: 🇯🇵 _JP_日本 2, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: default_name, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
-  - {name: 🇺🇸 _US_美国, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: 🇯🇵 _JP_日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇯🇵 _JP_日本 2, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡, server: lll.277428.xyz, port: 40836, type: vmess, uuid: 6e7a1447-bb6f-4b9b-f27b-a05fbf29111c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 3, server: trs11.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: false}
+  - {name: default_name, server: Shopify.com, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
       - 🇯🇵 _JP_日本
-      - _CN_中国->🇧🇭_BH_巴林
       - 🇯🇵 _JP_日本 2
-      - default_name
-      - 🇺🇸 _US_美国
+      - 🇸🇬 _SG_新加坡
       - 🇯🇵 _JP_日本 3
+      - default_name
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -38,11 +36,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇯🇵 _JP_日本
-      - _CN_中国->🇧🇭_BH_巴林
       - 🇯🇵 _JP_日本 2
-      - default_name
-      - 🇺🇸 _US_美国
+      - 🇸🇬 _SG_新加坡
       - 🇯🇵 _JP_日本 3
+      - default_name
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
