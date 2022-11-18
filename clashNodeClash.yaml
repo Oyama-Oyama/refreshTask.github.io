@@ -5,89 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚, server: cos-ap-beijing.westdatacloud.xyz, port: 20056, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇻🇳 _CN_中国->🇻🇳_VN_越南, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20069, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20028, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2, server: cos-ap-beijing.westdatacloud.xyz, port: 20057, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20022, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20025, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20027, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20061, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 5, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20026, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20006, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 6, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20021, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: cos-ap-beijing.westdatacloud.xyz, port: 20054, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国 2, server: cos-ap-beijing.westdatacloud.xyz, port: 20053, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 3, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20002, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 4, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20008, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇮🇱 _CN_中国->🇮🇱_IL_以色列, server: cos-ap-beijing.westdatacloud.xyz, port: 20067, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 5, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20005, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 7, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20024, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20016, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /2cc54dbd, headers: {Host: earth-identity-devel-pubmed.trycloudflare.com}}}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 3, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国 3, server: cos-ap-beijing.westdatacloud.xyz, port: 20055, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 4, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20015, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇮🇹 _CN_中国->🇮🇹_IT_意大利, server: cos-ap-beijing.westdatacloud.xyz, port: 20058, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国 4, server: cos-ap-beijing.westdatacloud.xyz, port: 20052, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇹🇭 _CN_中国->🇹🇭_TH_泰国, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20068, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 6, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20003, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 5, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20014, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20066, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: default_name, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 6, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20018, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 8, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20023, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 7, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20011, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇪🇸 _CN_中国->🇪🇸_ES_西班牙, server: cos-ap-beijing.westdatacloud.xyz, port: 20059, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 8, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20017, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: cos-ap-beijing.westdatacloud.xyz, port: 20060, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 7, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 794C9A17-02D3-A165-AB5F-C50FA69F2D5B, skip-cert-verify: false}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 125.94.215.64, port: 45535, type: ss, cipher: chacha20-ietf-poly1305, password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d}
+  - {name: 🇯🇵 _JP_日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 _US_美国, server: 20.239.74.87, port: 80, type: trojan, password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇻🇳 _CN_中国->🇻🇳_VN_越南
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 5
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 6
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇮🇱 _CN_中国->🇮🇱_IL_以色列
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 7
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
       - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 3
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 4
-      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 4
-      - 🇹🇭 _CN_中国->🇹🇭_TH_泰国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 6
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 5
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
-      - default_name
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 6
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 8
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 7
-      - 🇪🇸 _CN_中国->🇪🇸_ES_西班牙
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 8
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,45 +31,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-      - 🇻🇳 _CN_中国->🇻🇳_VN_越南
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4
-      - 🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 5
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 6
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
-      - 🇮🇱 _CN_中国->🇮🇱_IL_以色列
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 7
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
       - 🇺🇸 _US_美国
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 3
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 3
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 4
-      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
-      - 🇩🇪 _CN_中国->🇩🇪_DE_德国 4
-      - 🇹🇭 _CN_中国->🇹🇭_TH_泰国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 6
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 5
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
-      - default_name
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 6
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 8
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 7
-      - 🇪🇸 _CN_中国->🇪🇸_ES_西班牙
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 8
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 7
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
