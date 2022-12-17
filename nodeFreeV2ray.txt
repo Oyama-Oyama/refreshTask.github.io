@@ -9,7 +9,7 @@
 <meta name="applicable-device" content="pc,mobile" />
 <meta http-equiv="Cache-Control" content="no-transform" />
 <link rel="shortcut icon" href="https://nodefree.org/wp-content/uploads/2022/04/favicon.png" />
-<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.12.2.1668557675.css?ver=6.12.2' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css' href='//nodefree.org/wp-content/uploads/wpcom/style.6.12.2.1671311452.css?ver=6.12.2' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-css' href='https://nodefree.org/wp-content/themes/justnews/themer/assets/css/font-awesome.css?ver=6.12.2' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css' href='https://nodefree.org/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='classic-theme-styles-css' href='https://nodefree.org/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
@@ -108,7 +108,7 @@ oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = '订阅网
 <div class="collapse navbar-collapse">
 <nav class="primary-menu"><ul id="menu-nav" class="nav navbar-nav wpcom-adv-menu"><li class="menu-item menu-item-has-image"><a href="https://nodefree.org/f/freenode"><i class="wpcom-icon fa fa-angellist menu-item-icon"></i>免费节点</a></li>
 <li class="menu-item menu-item-has-image"><a href="https://nodefree.org/f/tutorial"><i class="wpcom-icon fa fa-bookmark-o menu-item-icon"></i>使用教程</a></li>
-<li class="menu-item menu-item-has-image"><a target="_blank" href="https://yiyun.io/#/register?code=xpeINiZl"><i class="wpcom-icon fa fa-paper-plane-o menu-item-icon"></i>推荐机场</a></li>
+<li class="menu-item menu-item-has-image"><a target="_blank" href="https://qingyun.io/#/register?code=d2gcvORr"><i class="wpcom-icon fa fa-paper-plane-o menu-item-icon"></i>推荐机场</a></li>
 <li class="menu-item menu-item-has-image"><a target="_blank" href="https://t.me/nodefreechannel"><i class="wpcom-icon fa fa-telegram menu-item-icon"></i>电报群</a></li>
 </ul></nav> <div class="navbar-action">
 <div class="navbar-search-icon j-navbar-search"><i class="wpcom-icon wi"><svg aria-hidden="true"><use xlink:href="#wi-search"></use></svg></i></div>
